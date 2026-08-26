@@ -1,0 +1,75 @@
+body{
+    background-image: url(myphoto.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 0px;
+    font-size: large;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+hr{
+    border-color: gold;
+}
+
+.birthday-card{
+    background-color: #DA8A95;
+    background: linear-gradient(to bottom, #DA8A95, #272D39);
+    border-radius: 70px;
+    border-style: dashed;
+    border-color: pink;
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 40%;
+}
+
+.birthday-gifts{
+    width: 60%;
+    margin: 10px 20px;
+    padding: 50px;
+    background-color: #844B56;
+    background: radial-gradient(circle, #844B56,pink, #844B56);
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    background-color: #DA8A95;
+    color: black;
+    border-radius: 500px;
+    padding: 10px 20px;
+    transition: background-color 0.9s, color 0.8s;
+}
+a:visited{
+    color: purple;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:focus{
+    outline: 1px solid black;
+}
+
+a:hover{
+    background-color: #844B56;
+    color: whitesmoke;
+}
